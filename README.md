@@ -8,6 +8,8 @@
 [mx-maskrcnn](https://github.com/winnerineast/mx-maskrcnn)：这是大神何恺明的最新[论文](https://arxiv.org/abs/1703.06870)的一种MXNET代码实现，基于另一种实现[mx-rcnn](https://github.com/winnerineast/mx-rcnn)。
 [FastMaskRCNN](https://github.com/winnerineast/FastMaskRCNN)：这是大神何恺明的最新[论文](https://arxiv.org/abs/1703.06870)的[tensorflow](https://github.com/winnerineast/tensorflow)实验性实现代码。
 [chainercv](https://github.com/winnerineast/chainercv)：基于[chainer](https://github.com/chainer/chainer)的算法实现。
+[luminoth](https://github.com/winnerineast/luminoth)：基于[tensorflow](https://github.com/winnerineast/tensorflow)和[sonnet](https://github.com/winnerineast/sonnet)的算法。
+[darknet](https://github.com/winnerineast/darknet)：卷积神经网络基于OpenCV的算法。
 
 ## 通用视觉算法类
 
@@ -27,6 +29,7 @@
 [uTensor](https://github.com/winnerineast/uTensor)：基于[tensorflow](https://github.com/winnerineast/tensorflow)的超级轻量级的深度学习推断框架，使用[Mbed CLI](https://github.com/ARMmbed/mbed-cli)来编译。
 
 ## 通用机器学习，深度学习框架类
+[Origae-6](https://github.com/winnerineast/Origae-6)：这是我基于[DIGITS](https://github.com/NVIDIA/DIGITS)改的通用算法平台。
 [tensorflow](https://github.com/winnerineast/tensorflow)：全球第一的深度学习框架。
 [keras](https://github.com/winnerineast/keras)：在Theano宣布死亡之后，拥抱Tensorflow的最佳快速编程框架，非常适合于验证各种论文算法。
 [scikit-learn](https://github.com/winnerineast/scikit-learn)：大名鼎鼎的机器学习算法库。
@@ -38,6 +41,7 @@
 [CapsNet-Tensorflow](https://github.com/winnerineast/CapsNet-Tensorflow)：这是Hinton大神最新胶囊理论的[tensorflow](https://github.com/winnerineast/tensorflow)实现代码。这个代码用MNIST数据集来说明其有效性。
 [CapsNet-Keras](https://github.com/winnerineast/CapsNet-Keras)：这是Hinton大神最新胶囊理论的[keras](https://github.com/winnerineast/keras)实现代码，这个代码用MNIST数据集，目前测试错误率小于0.4%。
 [pytorch-capsule](https://github.com/winnerineast/pytorch-capsule)：采用了Pytorch实现了Hinton大神最新胶囊理论的一部分。
+[xgboost](https://github.com/winnerineast/xgboost)：陈天奇的通用梯度上升算法，几乎大部分的分类都可以用。
 
 ## 推荐系统类
 [librec](https://github.com/winnerineast/librec)：使用Java实现的完备的推荐系统，包含了从原始数据转化到训练数据集，相似度计算，训练，过滤，推荐的全过程。
