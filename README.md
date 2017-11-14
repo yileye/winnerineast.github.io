@@ -11,7 +11,8 @@
 - [luminoth](https://github.com/winnerineast/luminoth)：基于[tensorflow](https://github.com/winnerineast/tensorflow)和[sonnet](https://github.com/winnerineast/sonnet)的算法。
 - [darknet](https://github.com/winnerineast/darknet)：卷积神经网络基于OpenCV的算法。
 
-## 通用视觉算法类
+## 文本算法类
+- [fastText](https://github.com/winnerineast/fastText)：脸书发布的文本表征和分类算法。
 
 ## NLP自然语言处理算法类
 - [BayesianRecurrentNN](https://github.com/winnerineast/BayesianRecurrentNN)：这是论文[Bayesian Recurrent Neural Networks](https://arxiv.org/abs/1704.02798)的Tensorflow实现。
@@ -24,13 +25,15 @@
 ## 语音算法类
 - [mss_pytorch](https://github.com/winnerineast/mss_pytorch)：对于歌曲中人声进行增强，音乐弱化的算法。
 - [multi-speaker-tacotron-tensorflow](https://github.com/winnerineast/multi-speaker-tacotron-tensorflow)：多人语音转写算法的[tensorflow](https://github.com/winnerineast/tensorflow)实现。
+- [kaldi](https://github.com/winnerineast/kaldi)：语音转写组合算法集。
+- [librosa](https://github.com/winnerineast/librosa)：比较全面的语音和音乐处理算法库。
 
 ## 基于ARM处理器的深度学习框架类
 - [uTensor](https://github.com/winnerineast/uTensor)：基于[tensorflow](https://github.com/winnerineast/tensorflow)的超级轻量级的深度学习推断框架，使用[Mbed CLI](https://github.com/ARMmbed/mbed-cli)来编译。
 
 ## 通用机器学习，深度学习框架类
 - [Origae-6](https://github.com/winnerineast/Origae-6)：这是我基于[DIGITS](https://github.com/NVIDIA/DIGITS)改的通用算法平台。
-- [tensorflow](https://github.com/winnerineast/tensorflow)：全球第一的深度学习框架。
+- [tensorflow](https://github.com/winnerineast/tensorflow)：全球第一的深度学习框架，它还带有一系列的[模型](https://github.com/winnerineast/models)，也有[Lattice](https://github.com/winnerineast/lattice)这样支持推荐系统的点阵模型。
 - [keras](https://github.com/winnerineast/keras)：在Theano宣布死亡之后，拥抱Tensorflow的最佳快速编程框架，非常适合于验证各种论文算法。
 - [scikit-learn](https://github.com/winnerineast/scikit-learn)：大名鼎鼎的机器学习算法库。
 - [pyro](https://github.com/winnerineast/pyro)：一种通用概率模型算法框架，来自优步人工智能实验室。
@@ -57,6 +60,9 @@
 ## 数据收集类
 - [scrapy](https://github.com/winnerineast/scrapy)：一个有名的python爬虫系统，可以结合一些Java Script库来爬动态页面。
 - [ItChat](https://github.com/winnerineast/ItChat)：微信 python API，可以用来爬微信聊天记录，可以作为对话机器人的输出接口。
+
+## 数据格式化类
+- [protobuf](https://github.com/winnerineast/protobuf)：谷歌的数据交换建模语言，方便python，java，c语言的数据交换。
 
 ## 数据可视化类
 - [manim](https://github.com/winnerineast/manim)：在Latex文档里面做公式动画，比较适合于解释比较困难的公式。
