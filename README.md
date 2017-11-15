@@ -1,22 +1,23 @@
 # Winnerineast的代码垃圾堆代码索引
 这是用来解释我的整个github代码结构的网页，不会中文的朋友，请用谷歌翻译吧。
 
-我的结构顺序如下：
-1. [IoT应用类](#IoT应用类)
-2. [图像对象检测和实例分割算法类](#图像对象检测和实例分割算法类)
-3. [通用图像算法框架类](#通用图像算法框架类)
-4. [NLP自然语言处理算法类](#NLP自然语言处理算法类)
-5. [NLP自然语言处理框架类](#NLP自然语言处理框架类)
-6. [语音算法类](#语音算法类)
-7. [基于ARM处理器的深度学习框架类](#基于ARM处理器的深度学习框架类)
-8. [通用深度学习算法类](#通用深度学习算法类)
-9. [通用机器学习深度学习框架类](#通用机器学习深度学习框架类)
-10. [推荐系统类](#推荐系统类)
-11. [深度学习电子书类](#深度学习电子书类)
-12. 大数据工具和互联网技术
-13. [数据格式化类](#数据格式化类)
-14. [数据可视化类](#数据可视化类)
-15. [网络安全技术类](#网络安全技术类)
+我的结构顺序如下，主要是根据我自己的研究和开发需要。
+- [IoT应用类](#IoT应用类)
+- [图像对象检测和实例分割算法类](#图像对象检测和实例分割算法类)
+- [通用图像算法框架类](#通用图像算法框架类)
+- [NLP自然语言处理算法类](#NLP自然语言处理算法类)
+- [NLP自然语言处理框架类](#NLP自然语言处理框架类)
+- [语音算法类](#语音算法类)
+- [基于ARM处理器的深度学习框架类](#基于ARM处理器的深度学习框架类)
+- [通用深度学习算法类](#通用深度学习算法类)
+- [通用机器学习深度学习框架类](#通用机器学习深度学习框架类)
+- [推荐系统类](#推荐系统类)
+- [深度学习电子书类](#深度学习电子书类)
+- 大数据工具和互联网技术
+- [数据格式化类](#数据格式化类)
+- [数据存储类](#数据存储类)
+- [数据可视化类](#数据可视化类)
+- [网络安全技术类](#网络安全技术类)
 
 ## <a name="IoT应用类">IoT应用类</a>
 - [home-assistant](https://github.com/winnerineast/home-assistant)：一个集成监测和控制各种智能家居设备的python代码。适合于做各类监控系统的起步代码。
@@ -65,7 +66,7 @@
 - [pyro](https://github.com/winnerineast/pyro)：一种通用概率模型算法框架，来自优步人工智能实验室。
 - [deepo](https://github.com/winnerineast/deepo)：一个集成了 theano, [tensorflow](https://github.com/winnerineast/tensorflow), sonnet, pytorch, [keras](https://github.com/winnerineast/keras), lasagne, mxnet, cntk, [chainer](https://github.com/chainer/chainer), caffe, torch的容器，主要用于各种云计算资源部署。
 - [chainer](https://github.com/chainer/chainer)：一种通用深度学习框架，主打视觉领域。
-
+- [pytorch-qrnn](https://github.com/winnerineast/pytorch-qrnn)：Quasi-RNN的pytorch代码实现，这是一种LSTM的替代品，但是速度是英伟达的cuDNN极致优化后LSTM的2-17倍。
 
 ## <a name="推荐系统类">推荐系统类</a>
 - [librec](https://github.com/winnerineast/librec)：使用Java实现的完备的推荐系统，包含了从原始数据转化到训练数据集，相似度计算，训练，过滤，推荐的全过程。
@@ -84,6 +85,9 @@
 
 ## <a name="数据格式化类">数据格式化类</a>
 - [protobuf](https://github.com/winnerineast/protobuf)：谷歌的数据交换建模语言，方便python，java，c语言的数据交换。
+
+## <a name="数据存储类">数据存储类</a>
+- [leveldb](https://github.com/winnerineast/leveldb):一种普通用来存储图片，文档的Key-Value数据库，特别适合于存放打标签的数据。
 
 ## <a name="数据可视化类">数据可视化类</a>
 - [manim](https://github.com/winnerineast/manim)：在Latex文档里面做公式动画，比较适合于解释比较困难的公式。
