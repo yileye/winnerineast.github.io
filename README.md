@@ -87,11 +87,12 @@
 - [protobuf](https://github.com/winnerineast/protobuf)：谷歌的数据交换建模语言，方便python，java，c语言的数据交换。
 
 ## <a name="数据存储类">数据存储类</a>
-- [leveldb](https://github.com/winnerineast/leveldb):一种普通用来存储图片，文档的Key-Value数据库，特别适合于存放打标签的数据。
+- [leveldb](https://github.com/winnerineast/leveldb):谷歌用来存储图片，文档的Key-Value数据库，特别适合于存放打标签的数据。
 
 ## <a name="数据可视化类">数据可视化类</a>
 - [manim](https://github.com/winnerineast/manim)：在Latex文档里面做公式动画，比较适合于解释比较困难的公式。
 - [react](https://github.com/winnerineast/react)：毫无疑问，脸书希望打败手机原生应用的武器。
+- [django](https://github.com/winnerineast/django)：可以用来做任何系统的快速开发原型，特别适合于人工智能系统。
 
 ## <a name="网络安全技术类">网络安全技术类</a>
 - [AngelSword](https://github.com/winnerineast/AngelSword)：一个检测各类CMS漏洞的python代码，主要特色是支持很多CMS系统的接口渗透。
