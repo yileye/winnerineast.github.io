@@ -23,6 +23,7 @@
 - [home-assistant](https://github.com/winnerineast/home-assistant)：一个集成监测和控制各种智能家居设备的python代码。适合于做各类监控系统的起步代码。
 
 ## <a name="图像对象检测和实例分割算法类">图像对象检测和实例分割算法类</a>
+- [face_recognition](https://github.com/winnerineast/face_recognition)：这是一个基于[dlib](https://github.com/winnerineast/dlib)实现的人脸识别系统，精度据说达到99.38%，主打树莓派应用，是嵌入式人脸识别的很好入门产品和技术。
 - [Mask_RCNN](https://github.com/winnerineast/Mask_RCNN)：这是大神何恺明的最新[论文](https://arxiv.org/abs/1703.06870)的python实验性实现代码。
 - [mx-maskrcnn](https://github.com/winnerineast/mx-maskrcnn)：这是大神何恺明的最新[论文](https://arxiv.org/abs/1703.06870)的一种MXNET代码实现，基于另一种实现[mx-rcnn](https://github.com/winnerineast/mx-rcnn)。
 - [FastMaskRCNN](https://github.com/winnerineast/FastMaskRCNN)：这是大神何恺明的最新[论文](https://arxiv.org/abs/1703.06870)的[tensorflow](https://github.com/winnerineast/tensorflow)实验性实现代码。
@@ -31,6 +32,7 @@
 - [darknet](https://github.com/winnerineast/darknet)：卷积神经网络基于OpenCV的算法。
 
 ## <a name="通用图像算法框架类">通用图像算法框架类</a>
+- [dlib](https://github.com/winnerineast/dlib)：大有超越OpenCV味道的，发展最快的计算机视觉库，特别是在支持C++和Python方面有自己的特色，值得自己做底层库的人去学习这种写法。
 - [opencv](https://github.com/winnerineast/opencv)：最有名的计算机视觉处理库。
 
 ## <a name="NLP自然语言处理算法类">NLP自然语言处理算法类</a>
@@ -60,9 +62,13 @@
 
 ## <a name="通用机器学习深度学习框架类">通用机器学习深度学习框架类</a>
 - [Origae-6](https://github.com/winnerineast/Origae-6)：这是我基于[DIGITS](https://github.com/NVIDIA/DIGITS)改的通用算法平台。
+- [DIGITS](https://github.com/NVIDIA/DIGITS)：英伟达自己出的深度学习平台，没有什么亮点，主要针对视频和图像，适合于工业快速开发的起点平台。
 - [tensorflow](https://github.com/winnerineast/tensorflow)：全球第一的深度学习框架，它还带有一系列的[模型](https://github.com/winnerineast/models)，也有[Lattice](https://github.com/winnerineast/lattice)这样支持推荐系统的点阵模型。
 - [keras](https://github.com/winnerineast/keras)：在Theano宣布死亡之后，拥抱Tensorflow的最佳快速编程框架，非常适合于验证各种论文算法。
+- [caffe](https://github.com/winnerineast/caffe)：这个世界上最强大，最难用，最广泛使用的深度学习框架，现在投奔Facebook，主推[caffe2](https://github.com/winnerineast/caffe2)。
+- [caffe2](https://github.com/winnerineast/caffe2)：由于caffe框架的难用，所以Facebook开始打造第二个版本。
 - [scikit-learn](https://github.com/winnerineast/scikit-learn)：大名鼎鼎的机器学习算法库。
+- [hw](https://github.com/winnerineast/hw)：英伟达的深度学习加速器用到的一些库，用GPU的需要了解。
 - [pyro](https://github.com/winnerineast/pyro)：一种通用概率模型算法框架，来自优步人工智能实验室。
 - [deepo](https://github.com/winnerineast/deepo)：一个集成了 theano, [tensorflow](https://github.com/winnerineast/tensorflow), sonnet, pytorch, [keras](https://github.com/winnerineast/keras), lasagne, mxnet, cntk, [chainer](https://github.com/chainer/chainer), caffe, torch的容器，主要用于各种云计算资源部署。
 - [chainer](https://github.com/chainer/chainer)：一种通用深度学习框架，主打视觉领域。
@@ -73,6 +79,7 @@
 - [predictionio](https://github.com/winnerineast/incubator-predictionio)：这是apache基于Spark和HBase的预测算法框架，适合于做推荐系统，相似度计算，分类算法。
 
 ## <a name="深度学习电子书类">深度学习电子书类</a>
+- [tensorflow-mnist-tutorial](https://github.com/winnerineast/tensorflow-mnist-tutorial)：这是学习Tensorflow的人必须看的东西。谷歌大神Martin Gorner在2017年python大会上讲演用的代码，比较好的诠释了Tensorflow怎么应用于深度学习的，使用的是MNIST数据集。
 - [deeplearningbook-chinese](https://github.com/winnerineast/deeplearningbook-chinese):这是一本深度学习英文版的中文翻译，这本书中规中矩，适合于希望做神经网络底层优化的人系统学习，也能给应用神经网络的人一些有益的知识。
 
 ## ***********************************************************************************
