@@ -26,7 +26,8 @@
 - [home-assistant](https://github.com/winnerineast/home-assistant)：一个集成监测和控制各种智能家居设备的python代码。适合于做各类监控系统的起步代码。
 
 ## <a name="通用图像算法类">通用图像算法类</a>
--[pix2pix](https://github.com/winnerineast/pix2pix)：图片风格迁移算法。
+- [pix2pix](https://github.com/winnerineast/pix2pix)：图片风格迁移算法。
+- [DenseNet](https://github.com/winnerineast/DenseNet)：2017年CVPR最佳论文的代码，主打图片语义理解，或者分类，对象识别等等。
 
 ## <a name="图像对象检测和实例分割算法类">图像对象检测和实例分割算法类</a>
 - [face_recognition](https://github.com/winnerineast/face_recognition)：这是一个基于[dlib](https://github.com/winnerineast/dlib)实现的人脸识别系统，精度据说达到99.38%，主打树莓派应用，是嵌入式人脸识别的很好入门产品和技术。
@@ -44,6 +45,7 @@
 ## <a name="通用图像算法框架类">通用图像算法框架类</a>
 - [dlib](https://github.com/winnerineast/dlib)：大有超越OpenCV味道的，发展最快的计算机视觉库，特别是在支持C++和Python方面有自己的特色，值得自己做底层库的人去学习这种写法。
 - [opencv](https://github.com/winnerineast/opencv)：最有名的计算机视觉处理库。
+- [openpose](https://github.com/winnerineast/openpose)：CMU的有名的人体姿态追踪。
 
 ## <a name="NLP自然语言处理算法类">NLP自然语言处理算法类</a>
 - [fastText](https://github.com/winnerineast/fastText)：脸书发布的文本表征和分类算法。
@@ -81,7 +83,7 @@
 - [wav2letter](https://github.com/winnerineast/wav2letter)：脸书开源ASRT。
 - [DeepSpeech](https://github.com/winnerineast/DeepSpeech)：百度的ASR。
 - [mss_pytorch](https://github.com/winnerineast/mss_pytorch)：歌曲人声分离算法，带demo页面。
-
+- [tensorflow_end2end_speech_recognition](https://github.com/winnerineast/tensorflow_end2end_speech_recognition)：一种Tensorflow的CTC+Attention的ASR。
 
 ## <a name="基于ARM处理器的深度学习框架类">基于ARM处理器的深度学习框架类</a>
 - [uTensor](https://github.com/winnerineast/uTensor)：基于[tensorflow](https://github.com/winnerineast/tensorflow)的超级轻量级的深度学习推断框架，使用[Mbed CLI](https://github.com/ARMmbed/mbed-cli)来编译。
@@ -97,6 +99,7 @@
 - [blocksparse](https://github.com/winnerineast/blocksparse)：专门针对英伟达GPU的性能优化。
 - [Keras-Classification-Models](https://github.com/winnerineast/Keras-Classification-Models):各种用keras实现的分类算法合集。
 - [sru](https://github.com/winnerineast/sru)：训练RNN和CNN一样快的优化，主要用于文本分类和语音识别。
+- [SMASH](https://github.com/winnerineast/SMASH)：探索深度学习框架的工具。
 
 ## <a name="通用机器学习深度学习框架类">通用机器学习深度学习框架类</a>
 - [Origae-6](https://github.com/winnerineast/Origae-6)：这是我基于[DIGITS](https://github.com/NVIDIA/DIGITS)改的通用算法平台。
@@ -134,6 +137,7 @@
 - [CaseRecommender](https://github.com/winnerineast/CaseRecommender)：包含了众多推荐算法。
 - [DeepRecommender](https://github.com/winnerineast/DeepRecommender)：英伟达出品的深度学习做协同过滤。
 - [triplet_recommendations_keras](https://github.com/winnerineast/triplet_recommendations_keras)：一种利用[LightFM](https://github.com/lyst/lightfm)实现的电影推荐算法。
+- [RecommendationSystem](https://github.com/winnerineast/RecommendationSystem)：用Keras做的一系列推荐算法。
 
 ## <a name="深度学习电子书类">深度学习电子书类</a>
 - [tensorflow-mnist-tutorial](https://github.com/winnerineast/tensorflow-mnist-tutorial)：这是学习Tensorflow的人必须看的东西。谷歌大神Martin Gorner在2017年python大会上讲演用的代码，比较好的诠释了Tensorflow怎么应用于深度学习的，使用的是MNIST数据集。
@@ -155,6 +159,7 @@
 - [DuReader](https://github.com/winnerineast/DuReader)：百度的阅读理解训练数据集。
 - [fashion-mnist](https://github.com/winnerineast/fashion-mnist)：一个类似MNIST的流行产品图片数据集。
 - [youtube-8m](https://github.com/winnerineast/youtube-8m)：谷歌的youtube视频数据集。
+- [boxscore-data](https://github.com/winnerineast/boxscore-data)：NBA数据集
 
 ## <a name="数据收集类">数据收集类</a>
 - [scrapy](https://github.com/winnerineast/scrapy)：一个有名的python爬虫系统，可以结合一些Java Script库来爬动态页面。
@@ -162,6 +167,7 @@
 - [wxpy](https://github.com/winnerineast/wxpy)：微信机器人 / 可能是最优雅的微信个人号 API。
 - [youtube-dl](https://github.com/winnerineast/youtube-dl)：下载视频数据的python工具。
 - [labelme](https://github.com/winnerineast/labelme)：图片打标签的工具。
+- [machinery](https://github.com/winnerineast/machinery)：一个处理摄像头视频的框架。
 
 ## <a name="数据格式化类">数据格式化类</a>
 - [protobuf](https://github.com/winnerineast/protobuf)：谷歌的数据交换建模语言，方便python，java，c语言的数据交换。
