@@ -18,6 +18,7 @@
 - [数据存储类](#数据存储类)
 - [数据可视化类](#数据可视化类)
 - [网络安全技术类](#网络安全技术类)
+- [其它]（#其它）
 
 ## <a name="IoT应用类">IoT应用类</a>
 - [home-assistant](https://github.com/winnerineast/home-assistant)：一个集成监测和控制各种智能家居设备的python代码。适合于做各类监控系统的起步代码。
@@ -58,7 +59,9 @@
 - [CapsNet-Tensorflow](https://github.com/winnerineast/CapsNet-Tensorflow)：这是Hinton大神最新胶囊理论的[tensorflow](https://github.com/winnerineast/tensorflow)实现代码。这个代码用MNIST数据集来说明其有效性。
 - [CapsNet-Keras](https://github.com/winnerineast/CapsNet-Keras)：这是Hinton大神最新胶囊理论的[keras](https://github.com/winnerineast/keras)实现代码，这个代码用MNIST数据集，目前测试错误率小于0.4%。
 - [pytorch-capsule](https://github.com/winnerineast/pytorch-capsule)：采用了Pytorch实现了Hinton大神最新胶囊理论的一部分。
-- [xgboost](https://github.com/winnerineast/xgboost)：陈天奇的通用梯度上升算法，几乎大部分的分类都可以用。
+- [xgboost](https://github.com/winnerineast/xgboost)：陈天奇的通用梯度上升算法，几乎大部分的分类都可以用。这不是深度学习。
+- [Paddle model](https://github.com/winnerineast/models-paddle):百度Paddle自带的模型，推荐类的比较深刻。
+- [TVM](https://github.com/winnerineast/tvm):Tensor Intermediate Representation stack，自动生成硬件优化内核，来自陈天奇团队。
 
 ## <a name="通用机器学习深度学习框架类">通用机器学习深度学习框架类</a>
 - [Origae-6](https://github.com/winnerineast/Origae-6)：这是我基于[DIGITS](https://github.com/NVIDIA/DIGITS)改的通用算法平台。
@@ -73,6 +76,7 @@
 - [deepo](https://github.com/winnerineast/deepo)：一个集成了 theano, [tensorflow](https://github.com/winnerineast/tensorflow), sonnet, pytorch, [keras](https://github.com/winnerineast/keras), lasagne, mxnet, cntk, [chainer](https://github.com/chainer/chainer), caffe, torch的容器，主要用于各种云计算资源部署。
 - [chainer](https://github.com/chainer/chainer)：一种通用深度学习框架，主打视觉领域。
 - [pytorch-qrnn](https://github.com/winnerineast/pytorch-qrnn)：Quasi-RNN的pytorch代码实现，这是一种LSTM的替代品，但是速度是英伟达的cuDNN极致优化后LSTM的2-17倍。
+- [Paddle](https://github.com/winnerineast/Paddle):百度的深度学习框架。很中国。
 
 ## <a name="推荐系统类">推荐系统类</a>
 - [librec](https://github.com/winnerineast/librec)：使用Java实现的完备的推荐系统，包含了从原始数据转化到训练数据集，相似度计算，训练，过滤，推荐的全过程。
@@ -95,6 +99,7 @@
 
 ## <a name="数据存储类">数据存储类</a>
 - [leveldb](https://github.com/winnerineast/leveldb):谷歌用来存储图片，文档的Key-Value数据库，特别适合于存放打标签的数据。
+- [python-driver](https://github.com/winnerineast/python-driver)DataStax的Cassandra数据库的python编程接口。
 
 ## <a name="数据可视化类">数据可视化类</a>
 - [manim](https://github.com/winnerineast/manim)：在Latex文档里面做公式动画，比较适合于解释比较困难的公式。
@@ -103,3 +108,6 @@
 
 ## <a name="网络安全技术类">网络安全技术类</a>
 - [AngelSword](https://github.com/winnerineast/AngelSword)：一个检测各类CMS漏洞的python代码，主要特色是支持很多CMS系统的接口渗透。
+
+## <a name="其它">其它</a>
+- [Celery](https://github.com/winnerineast/celery):非常有用的并行任务调度框架，适合于长时间数据处理。
