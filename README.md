@@ -9,7 +9,7 @@
 - [NLP自然语言处理框架类](#NLP自然语言处理框架类)
 - [语音算法类](#语音算法类)
 - [基于ARM处理器的深度学习框架类](#基于ARM处理器的深度学习框架类)
-- [通用深度学习算法类](#通用深度学习算法类)
+- [通用机器学习深度学习算法类](#通用机器学习深度学习算法类)
 - [通用机器学习深度学习框架类](#通用机器学习深度学习框架类)
 - [推荐系统类](#推荐系统类)
 - [深度学习电子书类](#深度学习电子书类)
@@ -55,12 +55,12 @@
 ## <a name="基于ARM处理器的深度学习框架类">基于ARM处理器的深度学习框架类</a>
 - [uTensor](https://github.com/winnerineast/uTensor)：基于[tensorflow](https://github.com/winnerineast/tensorflow)的超级轻量级的深度学习推断框架，使用[Mbed CLI](https://github.com/ARMmbed/mbed-cli)来编译。
 
-## <a name="通用深度学习算法类>通用深度学习算法类</a>
+## <a name="通用机器学习深度学习算法类">通用机器学习深度学习算法类</a>
 - [Python Algo Collections](https://github.com/winnerineast/Python)：很多基础算法的python
 - [CapsNet-Tensorflow](https://github.com/winnerineast/CapsNet-Tensorflow)：这是Hinton大神最新胶囊理论的[tensorflow](https://github.com/winnerineast/tensorflow)实现代码。这个代码用MNIST数据集来说明其有效性。
 - [CapsNet-Keras](https://github.com/winnerineast/CapsNet-Keras)：这是Hinton大神最新胶囊理论的[keras](https://github.com/winnerineast/keras)实现代码，这个代码用MNIST数据集，目前测试错误率小于0.4%。
 - [pytorch-capsule](https://github.com/winnerineast/pytorch-capsule)：采用了Pytorch实现了Hinton大神最新胶囊理论的一部分。
-- [xgboost](https://github.com/winnerineast/xgboost)：陈天奇的通用梯度上升算法，几乎大部分的分类都可以用。这不是深度学习。
+- [xgboost](https://github.com/winnerineast/xgboost)：陈天奇的通用梯度上升算法，几乎大部分的分类都可以用。
 - [Paddle model](https://github.com/winnerineast/models-paddle):百度Paddle自带的模型，推荐类的比较深刻。
 - [TVM](https://github.com/winnerineast/tvm):Tensor Intermediate Representation stack，自动生成硬件优化内核，来自陈天奇团队。
 
@@ -107,7 +107,6 @@
 
 ## <a name="数据存储类">数据存储类</a>
 - [leveldb](https://github.com/winnerineast/leveldb):谷歌用来存储图片，文档的Key-Value数据库，特别适合于存放打标签的数据。
-- [python-driver](https://github.com/winnerineast/python-driver)DataStax的Cassandra数据库的python编程接口。
 
 ## <a name="数据可视化类">数据可视化类</a>
 - [manim](https://github.com/winnerineast/manim)：在Latex文档里面做公式动画，比较适合于解释比较困难的公式。
@@ -119,5 +118,4 @@
 
 ## <a name="其它">其它</a>
 - [Celery](https://github.com/winnerineast/celery):非常有用的并行任务调度框架，适合于长时间数据处理。
-- [flask](https://github.com/winnerineast/flask):非常方便的python网页服务框架。
-
+- [flask](https://github.com/winnerineast/flask):非常方便的python网页服务框架。管理工具[Flower](https://github.com/winnerineast/flower)
