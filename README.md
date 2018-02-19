@@ -14,11 +14,12 @@
 - [推荐系统类](#推荐系统类)
 - [深度学习电子书类](#深度学习电子书类)
 - 大数据工具和互联网技术
+- [数据集](#数据集)
 - [数据格式化类](#数据格式化类)
 - [数据存储类](#数据存储类)
 - [数据可视化类](#数据可视化类)
 - [网络安全技术类](#网络安全技术类)
-- [其它]（#其它）
+- [其它](#其它)
 
 ## <a name="IoT应用类">IoT应用类</a>
 - [home-assistant](https://github.com/winnerineast/home-assistant)：一个集成监测和控制各种智能家居设备的python代码。适合于做各类监控系统的起步代码。
@@ -77,10 +78,14 @@
 - [chainer](https://github.com/chainer/chainer)：一种通用深度学习框架，主打视觉领域。
 - [pytorch-qrnn](https://github.com/winnerineast/pytorch-qrnn)：Quasi-RNN的pytorch代码实现，这是一种LSTM的替代品，但是速度是英伟达的cuDNN极致优化后LSTM的2-17倍。
 - [Paddle](https://github.com/winnerineast/Paddle):百度的深度学习框架。很中国。
+- [Turicreate](https://github.com/winnerineast/turicreate)：苹果的通用深度学习框架，主打iOS应用。
+- [predictionio](https://github.com/winnerineast/predictionio)：基于Spark，HBase和Spray的机器学习框架。
+- [pattern](https://github.com/winnerineast/pattern)：多用途爬虫，NLP，机器学习，网络分析和可视化框架。
 
 ## <a name="推荐系统类">推荐系统类</a>
 - [librec](https://github.com/winnerineast/librec)：使用Java实现的完备的推荐系统，包含了从原始数据转化到训练数据集，相似度计算，训练，过滤，推荐的全过程。
 - [predictionio](https://github.com/winnerineast/incubator-predictionio)：这是apache基于Spark和HBase的预测算法框架，适合于做推荐系统，相似度计算，分类算法。
+- [tf_repos](https://github.com/winnerineast/tf_repos)：深度CTR算法，比较了Wide&Deep，NFM，AFM，FNN，PNN几种算法，使用Tensorflow框架。
 
 ## <a name="深度学习电子书类">深度学习电子书类</a>
 - [tensorflow-mnist-tutorial](https://github.com/winnerineast/tensorflow-mnist-tutorial)：这是学习Tensorflow的人必须看的东西。谷歌大神Martin Gorner在2017年python大会上讲演用的代码，比较好的诠释了Tensorflow怎么应用于深度学习的，使用的是MNIST数据集。
@@ -89,6 +94,9 @@
 ## ***********************************************************************************
 ## 以下内容和深度学习关系不大，但是工程化和落地深度学习技术，这些技术和工具都还是很有用处的。
 ## ***********************************************************************************
+
+## <a name="数据集">数据集</a>
+- [chinese-poetry](https://github.com/winnerineast/chinese-poetry):最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。
 
 ## <a name="数据收集类">数据收集类</a>
 - [scrapy](https://github.com/winnerineast/scrapy)：一个有名的python爬虫系统，可以结合一些Java Script库来爬动态页面。
@@ -111,3 +119,5 @@
 
 ## <a name="其它">其它</a>
 - [Celery](https://github.com/winnerineast/celery):非常有用的并行任务调度框架，适合于长时间数据处理。
+- [flask](https://github.com/winnerineast/flask):非常方便的python网页服务框架。
+
